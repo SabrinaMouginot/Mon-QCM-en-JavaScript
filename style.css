@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Patrick+Hand&family=Shizuru&display=swap');
+* {
+  font-family: 'Luxurious Roman', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  background: #a57e51;
+  color: black;
+}
+body h1 {
+  margin-bottom: 3rem;
+  font-family: 'Shizuru', cursive;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+body h3 {
+  font-size: 1.5rem;
+}
+body .container .choices {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem auto 3rem;
+  width: 500px;
+}
+body .container .choices button {
+  flex: 1 0 45%;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.4rem;
+  outline: none;
+  background: #ada28f;
+  user-select: none;
+  font-weight: 600;
+}
+body .container .choices button:hover {
+  background: #9b400c;
+  transition: 0.3s;
+}
+body .container .choices button:active {
+  transform: scale(0.9);
+  transition: transform 0.1s;
+}
+body .container .choices button p {
+  font-size: 1.3rem;
+  font-family: 'Patrick Hand', cursive;
+}
+body #progress {
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
